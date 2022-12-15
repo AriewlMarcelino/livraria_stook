@@ -1,0 +1,16 @@
+<h1>Ola seja bem vindo ao Livraria Stook!</h1>
+<form action="/books/insertbook" method="POST" class="form">
+    
+    <div class="form-floating mb-3 mt-5">
+        <input type="text" name="title" class="form-control shadow-sm  mb-5 bg-body" id="floatingInput" placeholder="Digite o nome de seu livro..">
+        <label for="nome">Digite o nome de seu livro:</label>
+    </div>
+
+    <div class="form-floating mb-3 mt-5">
+        <input type="text" name="pageqty" class="form-control shadow-sm  mb-5 bg-body" id="floatingInput" placeholder="Quantas paginas tem seu livro:">
+        <label for="nome">Digite o nome de seu livro:</label>
+    </div>
+
+    <input type="submit" class="btn bg-dark text-white" value="Cadastrar">
+    <a href="/books" class="btn btn-outline-dark m-3 ">Ver livros cadastrados</a>
+</form>
